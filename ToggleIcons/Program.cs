@@ -12,7 +12,6 @@ namespace ToggleDesktopIcons
     static class Program
     {
         //https://stackoverflow.com/questions/17503289/how-to-refresh-reload-desktop
-		//test
 
         [DllImport("user32.dll", SetLastError = true)]
         static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
